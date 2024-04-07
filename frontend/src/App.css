@@ -1,0 +1,1168 @@
+
+  * {
+    margin: 0;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    
+  }
+  .buksu {
+    color: white;
+  }
+
+ 
+  body {
+    background-color: white;
+  }
+
+  .container {               /*workable space*/
+    display: flex;
+    padding-top: 150px;
+    justify-content: center;
+    align-items: top center;
+    background-color: #FFF;
+    min-height: 350px;
+  }
+  
+  .profiledetails {
+    color: black;
+  }
+  h1{
+    text-align: center;
+  }
+  .details-picture{
+    display: 'block';
+    margin: 'auto';
+  }
+  .head {
+    background-color: #510202df;
+    color:white;
+    font-size:7;
+    display: flex;
+    align-items: center; 
+    position: relative;
+  
+  }
+
+
+  .nav-link{
+  
+    color:white;
+    font-size: 7;
+  padding-left: 10px;
+  
+  }
+
+  .nav-lin{
+  
+    color:black;
+    font-size: 7;
+  padding-left: 10px;
+  
+  }
+
+
+  .logo{
+    height: 80px;
+    width: 80px;
+  }
+
+
+  .register {                 /*register container*/
+    min-width: 350px;
+    padding: 30px;
+    height: max-content;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #800000;
+    
+  }
+
+  .register h2 {             /*title*/
+    color: #fff;
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+
+  form {
+    text-align: center;
+  }
+
+  input {
+    border-radius: 10px;
+    padding: 5px;
+    width: 85%;
+    height: 30px;
+    margin: 15px;
+
+  }
+  button {
+    background-color: #800000;
+    color: white;
+    width: 85%;
+    border-radius: 15px;
+    height: 40px;
+    padding: 5px;
+    margin: 15px;
+
+  }
+
+  .profiledetials{
+    min-width: 350px;
+    padding: 30px;
+    height: max-content;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #1635d1;
+  }
+
+
+  /* Add your existing CSS styles here */
+
+  /* Style the clicked menu item with a red background and fading effect */
+  .sidebar ul .active {
+    background-color: red;
+    background: linear-gradient(to right, red, transparent);
+    color: #fff;
+  }
+
+  /* Highlight the currently active menu item (if needed) */
+  .sidebar a:hover {
+    text-decoration: underline;
+  }
+
+
+  /* Reset some default styles for the body and ul */
+  body, ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Define styles for the dashboard container */
+  .dashboard {
+    display: flex; /* Use flexbox for layout */
+  }
+
+  /* Style the sidebar */
+  .sidebar {
+    width: 200px;
+    background-color: white; /* Background color for the sidebar */
+    color: #fff; /* Text color for the links */
+    padding: 20px; /* Add padding to the links for spacing */
+  }
+
+  /* Style the sidebar links */
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .sidebar li {
+    margin: 30px 0;
+  }
+
+  .sidebar a {
+    text-decoration: none;
+    color:black;
+  }
+
+  /* Highlight the currently active menu item (if needed) */
+  .sidebar a:hover {
+    text-decoration: underline;
+  }
+
+  /* Style the main content area (adjust width and margin as needed) */
+  .content {
+    flex: 1;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: rgb(12, 2, 2); /* Check if this color is appropriate */
+    border-radius: 25px;
+    height: 420px;
+    overflow-y: auto;
+  }
+  /* Style the search bar */
+  .search {
+  width: 200px;
+  height: 20px ;
+  margin-right: 50px;
+  }
+
+  .content-header{
+    display: flex;
+    justify-Content: space-between;
+    align-Items: center;
+  }
+
+  #signUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #signIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Adjust as needed based on your layout */
+  }
+
+  .selectrole {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .selectrole label {
+    margin-right: 10px; /* Optional: Add some spacing between the label and the radio button */
+  }
+
+  .selectrole input[type="radio"] {
+    transform: scale(0.5); /* Adjust the scale factor as needed */
+    margin-right: 5px; /* Optional: Add some spacing between the label and the radio button */
+  }
+
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+  }
+ 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    float:left;
+    margin-right: 65%;
+    width: 30%;
+   
+    
+  }
+/* Style for the dropdown button */
+.dropbtnfaculty {
+  background-color: #800000;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style for the dropdown container */
+.dropdownfaculty {
+  position: relative;
+  display: inline-block;
+  float: right; /* Align to the right side */
+}
+
+/* Style for the dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 110%;
+  z-index: 1;
+}
+
+/* Style for dropdown options */
+.dropdown-content div {
+  padding: 12px 16px;
+  display: block;
+}
+
+/* Show the dropdown content when the dropdown button is hovered over */
+.dropdownfaculty:hover .dropdown-content {
+  display: block;
+}
+
+
+  .selectAllButton{
+    background-color: #800000;
+    float:right;
+    width: 45%;
+    margin-top: -55px;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+     background-color: green;
+    display: block;
+      margin-left: 100%;
+    float: right;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    float: left;
+    
+  }
+
+  
+  .dropdown:hover .dropdown-content-faculty {
+    display: block;
+    float: right;
+    
+  }
+
+
+
+
+  .editbutton {
+    background-color: #510202df;
+    color: white;
+    width: 20%;
+    border-radius: 15px;
+    height: 40px;
+    padding: 5px;
+    margin: 15px;
+
+  }
+  .dropdown-content-faculty{
+
+    border: 2px solid black;
+    padding-left: 10px;
+  }
+  .user-details-send {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .fileinput{
+    float: left;
+    margin-left: 25px;
+width: 30%;
+
+
+  }
+
+  #createMemoback{
+   margin-bottom: 50px;
+  }
+
+  
+  .user-details-send input {
+    margin-right: 10px;
+  }
+  
+  .details-list {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .details-list:first-child {
+    flex: 2;
+  }
+  
+  /* Styles for the checkbox */
+  input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Styles for the role */
+  .details-list:nth-child(2) {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .user-details-send{
+    background-color: #87CEEB;
+    color: black;
+    font-weight: 800;
+  }
+  /* Different colors based on the role */
+  .details-list:nth-child(2).admin {
+    color: #e74c3c; /* Red for Admin */
+  }
+  
+  .details-list:nth-child(2).secretary {
+    color: #3498db; /* Blue for Secretary */
+  }
+  
+  .details-list:nth-child(2).instructor {
+    color: #2ecc71; /* Green for Instructor */
+  }
+  
+  .details-list:nth-child(2).unregistered {
+    color: #16d0dd; /* Gray for Unregistered User */
+  }
+
+  .title{
+    width: 50%;
+  }
+
+  .memoMessage {
+    width: 42%;
+    height: 30vh;
+    
+
+  }
+  .memoFile{
+    width: 42%;
+    display: flex;
+    margin: 0 2.5rem;
+  }
+
+  .memoSend{
+    width: 10%;
+    margin-left: -100px;
+  }
+
+  .file-upload{
+    text-align: center;
+  }
+
+  .listoffaculty {
+   float: right;
+   background-color: white;
+   overflow-y: auto;
+   width: 40%;
+   margin-top: -170px;
+   height: 430px;
+  }
+  
+
+
+  .user-picture {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    border-radius: 50%; /* Apply a circular border to the image */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the image */
+  }
+
+
+  .clearButton {
+    background-color: #330eee; /* Customize the background color */
+    color: #fff; /* Customize the text color */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+
+
+  .memo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .memo-details {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+  }
+
+  .memo-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .memo-sender {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+  }
+
+  .memo-date {
+    font-size: 12px;
+    color: #999;
+  }
+
+
+  .memo-details-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+
+  .memo-title-details {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .memo-sender-details,
+  .memo-timestamp-details,
+  .memo-content-details {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+
+
+
+
+  .confirmation-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    z-index: 101; /* Higher than the overlay */
+  }
+
+  .react-calendar {
+    color: black;
+  }
+
+  /* If necessary, adjust other styles to suit your design */
+  .react-calendar__tile {
+    color: black;
+    background-color: white;
+    border: 1px solid #ddd;
+  }
+
+  /* Optionally, style other parts of the calendar as needed */
+  .react-calendar__navigation {
+    background-color: #510202df;
+    color: white;
+  }
+
+  /* Add this CSS for the modal */
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 101; /* Higher than the overlay */
+  }
+
+  .modal h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .modal p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .modal button {
+    background-color: #510202df;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .modal button:hover {
+    background-color: #510202;
+  }
+
+
+  .notification-label.hovered {
+    background-color: gray;
+  }
+
+  .notifications-scroll-container {
+    max-height: 250px; /* Set a maximum height for the scrollable container */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the container height */
+    color: black; /* Set the text color to black */
+  }
+  .modalnotification {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 101; /* Higher than the overlay */
+  }
+
+  .modal p {
+    color: black; /* Set the text color to black */
+    
+  }
+  h2{
+    color: black; /* Set the text color to black */
+  }
+
+
+
+  /*Headerdashboard*/
+  .head {
+    background-color: #510202df;
+    color: white;
+    font-size: 7;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    padding: 0 20px;
+  }
+
+  .logo {
+    height: 50px;
+    width: 50px;
+    margin-right: 1px; /* Adjust the margin between the logo and text as needed */
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-item {
+    display: flex;
+    justify-content: right;
+  }
+
+  .account-container,
+  .notification-container {
+    margin-right: 10px;
+  }
+
+  .account-button,
+  .notification-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px; /* Adjust the margin between buttons as needed */
+  }
+
+  .account-button:hover,
+ 
+
+
+  /*dasboard*/
+
+  .h1{
+    text-align: left;
+  }
+
+  .dashboard {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Add this line to space the items */
+  }
+
+  /* Style the main content area (adjust width and margin as needed) */
+  .content {
+    flex: 1;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: rgba(101, 4, 4, 0.968); /* Check if this color is appropriate */
+    border-radius: 25px;
+    height: 420px;
+
+  }
+  .calendar-dashboard {
+    float: right;
+    margin-left: 20px;
+    margin-top: 20px; 
+    border-radius: 50px;/* Add margin-top to move it to the top */
+  }
+
+  /* Optional: Adjust the width of the content area */
+  .content {
+    width: 100%;
+  
+  }
+  .Graph-dashboard {
+    float: left;
+    width: 65%;
+    
+  }
+  
+  .calendar-dashboard {
+    float: right;
+    width:32%; /* Adjust the width based on your design */
+    height: 100px; /* Adjust the height based on your design */
+    margin-top: -295px;
+    
+  
+  }
+
+  .eventdate {
+    max-height: 95px; /* Adjust the max-height based on your design */
+    overflow-y: auto;
+    width: 94%;
+    background-color: white;
+    padding: 10px; /* Optional: Add padding for better aesthetics */
+    border-radius: 1px; /* Optional: Add border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for a subtle effect */
+    font-family: 'Arial', sans-serif; /* Optional: Set the font family */
+  }
+
+
+  .events-list {
+    max-height: 300px; /* Set the maximum height based on your design */
+    overflow-y: auto; /* Add a vertical scrollbar if needed */
+    background-color: #f4f4f4; /* Optional: Add a background color */
+    padding: 10px; /* Optional: Add padding for better aesthetics */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for a subtle effect */
+    font-family: 'Arial', sans-serif; /* Optional: Set the font family */
+  } 
+  .Event-Calendar {
+    
+    background-color: #330eee;
+    position: fixed;
+  }
+
+  .calendar-and-events {
+    display: flex;
+  }
+
+  .memolatest {
+    float: left;
+    clear: left; /* Clear the float to ensure it stays below the Graph-dashboard */
+    width: 50%; /* Adjust the width based on your design */
+    margin-top: 20px; /* Add margin-top to provide spacing */
+    border-radius: 10px;
+    padding: 15px;
+    padding-right: 130px;
+    
+  } 
+
+
+
+  /*FAculty Manager*/
+  .dropdown-content-faculty {
+    display: none;
+    position: absolute;
+    margin-left: 200%;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0; /* Adjust the right distance to position it to the right */
+  }
+
+  /* Adjust other styles as needed */
+  .dropdown-content-faculty div {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content-faculty div:hover {
+    background-color: #f1f1f1;
+  }
+
+  .dropdown:hover .dropdown-content-faculty {
+    display: block;
+  }
+
+  .dropdown{
+    float: right;
+  }
+
+
+  @import '../node_modules/@syncfusion/ej2-base/styles/material.css';
+  @import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';
+  @import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+  @import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
+  @import '../node_modules/@syncfusion/ej2-lists/styles/material.css';
+  @import '../node_modules/@syncfusion/ej2-navigations/styles/material.css';
+  @import '../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css';
+  @import '../node_modules/@syncfusion/ej2-dropdowns/styles/material.css';
+  @import "../node_modules/@syncfusion/ej2-react-documenteditor/styles/material.css";
+
+  .editor-container {
+    width: 70%; /* Adjust the width based on your design */
+  }
+
+
+  .pdf-div{
+    color: black;
+  }
+
+
+
+  /* memo manager */  
+
+  .search-bar-left {
+    float: left;
+    background-color:white;
+    width: 99%;
+    height: 215px; /* Take half of the container height */
+    overflow-y: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  .search-bar-right {
+    float: left;
+    background-color: white;
+    width: 99%;
+    height: 215px; 
+    overflow-y: auto ;
+   
+  }
+  
+ .search-right{
+  float: right;
+  width: 20%;
+  height: 10%;
+
+  
+ }
+ .search-right-receive{
+  width: 15%;
+  height: 10%;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #800000; /* Change the background color */
+  color: white; /* Change the text color */
+  border-radius: 10px;
+
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+
+  /* Additional styles for better appearance */
+  cursor: pointer;
+ }
+
+ .search-bar-right:hover {
+  background-color: deepskyblue; /* Change the background color on hover if desired */
+}
+
+ .search-left{
+  float: right;
+  width: 20%;
+  height: 200%;
+ }
+
+  
+
+   .memo-details{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-family: Arial;
+    border-color: black;
+    border-width: 80%;
+     border: 2px solid black;
+    size: 10px;
+   }
+
+   
+  .receivedMemoList{
+    overflow-y: auto;
+    background-color: white;
+    border: 2px solid black;
+  }
+  .sendMemoList{
+    background-color: rgb(255, 254, 254);
+    border-radius: 10px;
+  }
+  
+  .top-receive{
+    text-shadow:black ;
+    background-color: #1635d1;
+
+  }
+
+  .link-to-send {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #800000; /* Change the background color */
+    color: white; /* Change the text color */
+    border-radius: 10px;
+  
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  
+    /* Additional styles for better appearance */
+    cursor: pointer;
+  }
+ 
+  .memo-details{
+    background-color: white;
+    padding: 20px;
+  }
+
+  .memo-content-details{
+    font-weight: bold;
+    color: black;
+  }
+
+  .memo-sender{
+    font-weight: bold;
+    color: black;
+  }
+  .memo-date{
+    font-weight: bold;
+    color: black;
+  }
+
+  .Graph-report{
+   border: 2px inset black;
+  }
+
+
+  .memo-details-on-that-day{
+    overflow: auto;
+    background-color: white;
+    margin-bottom: 5px;
+    justify-content: space-between;
+  }
+
+  .report-list-memo-details{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #800000; /* Change the background color */
+    color: white; /* Change the text color */
+    border-radius: 5px;
+    padding: 10px 10px;
+  
+  }
+
+  .view-details{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #800000; /* Change the background color */
+    color: white; /* Change the text color */
+    border-radius: 7px;
+    padding-bottom: 5px;
+   
+  }
+
+  .memo-details-on-that-day {
+    /* Add margin to the entire container */
+    margin-bottom: 20px;
+  }
+  
+  .memo-details-on-that-day p {
+    /* Add margin to each paragraph */
+    margin-bottom: 10px;
+  }
+  
+  .memo-details-on-that-day ul {
+    /* Add padding to the unordered list */
+    padding-left: 30px;
+  }
+  
+  .memo-details-on-that-day li {
+    /* Add margin to each list item */
+    margin-bottom: 5px;
+  }
+  
+  .memo-details-on-that-day a.view-details {
+    /* Add margin to the "View Details" link */
+    margin-left: 10px;
+  }
+  
+
+  .received-memo-section{
+    margin-bottom: 5px;
+    margin-bottom: 20px;
+  }
+  .section-header {
+    margin-bottom: 100px; /* Adjust the margin value according to your preference */
+  }
+  
+  .search-bar-right-user{
+    float: left;
+    background-color: white;
+    width: 99%;
+    height: 100%; 
+    overflow-y: auto ;
+  }
+
+  .createEvent {
+    float: left;
+    clear: left; /* Clear the float to ensure it stays below the Events Container */
+    width: 100%; /* Occupy the entire width */
+    margin-top: 20px; /* Add margin-top to provide spacing */
+  }
+
+.calendar-sidebar-calendar{
+  float:right;
+  float:inherit;
+padding-left: 50;
+}
+
+.events-container{
+  float: right;
+  background-color: white;
+  margin-right: 75px;
+  margin-top: -330px;
+  width: 50%;
+  height: 50%;
+  overflow-y:auto;
+}
+
+
+.event-item {
+  background-color: skyblue;
+  width: 100%;
+  height: 50%;
+  margin-bottom: 5px;
+  cursor: pointer;
+  overflow: auto;
+  list-style-type: none; /* Remove bullets */
+}
+
+
+
+.createEvent {
+  float: left;
+  clear: left; /* Clear the float to ensure it stays below the Events Container */
+  width: 99%; /* Occupy the entire width */
+  margin-top: 20px; /* Add margin-top to provide spacing */
+}
+
+.createEvent {
+  float: left;
+  clear: left;
+ 
+  margin-top: 20px;
+
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.createEvent label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.createEvent input,
+.createEvent textarea {
+  width: 75%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.createEvent input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.createEvent input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.details-lists{
+
+  background-color: white ;
+  list-style-type: none;
+}
+
+
+.showmemo{
+  width: 50%;
+}
+
+.profiledetails{
+  text-align:center;
+  background-color: #800000;
+  font-size: medium;
+  color: white;
+  width: 40%;
+  margin-left: 29%;
+  border: 7px solid black;
+}
+
+.details-list-profile{
+ font-size: large;
+}
+
+.selectdepartment {
+
+  align-items: center;
+  background-color:  #800000;
+  color: white;
+  width: 50%;
+  margin-left: 25%;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-around; /* Adjust the spacing between radio buttons */
+  margin-bottom: 20px;
+  border: 5px solid black;
+}
+
+/* Optional: Add some spacing between the labels and radio buttons */
+.selectdepartment label {
+  margin-right: 1px;
+}
+
+
+.verification-section {
+  display: flex;
+  align-items: center;
+  margin-top: 20px; /* Add some margin above the verification section */
+  background-color: #800000;
+  color: white;
+  width: 50%;
+  margin-left: 25%;
+  font-weight: 400;
+  border: 5px solid black;
+}
+.verification-section button:hover {
+  background-color: #0056b3;
+}
+
+.verification-section button{
+  background-color: white;
+  color: black;
+  font-weight: 400;
+}
+
+
+.googlesign{
+  align-items: center;
+  margin-left: 70px;
+}
+
+.recaptcha{
+  align-items: center;
+  margin-left: 25px;
+}
+
+.nav-item-header{
+  display: flex;
+  font-size: large;
+  margin-left: 60%;
+   justify-content: space-around;
+  
+}
+
+
+.nav-item-headerdashboard{
+  display: flex;
+  font-size: medium;
+  margin-left:30%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+ /* Notication lists */
+ .clickable-notification {
+  cursor: pointer;
+  /* Add any other styles to indicate that it's clickable */
+}
+
+.clickable-notification:hover {
+  background-color: lightgray; /* Example: Change background color on hover */
+}
